@@ -1,0 +1,79 @@
+Natural Language Processing 
+
+Welcome to Part 7 - Natural Language Processing! 
+ 
+ 
+Natural Language Processing (or NLP) is applying Machine Learning models to text and language. Teaching machines to understand what is said in spoken and written word is the focus of Natural Language Processing. Whenever you dictate something into your iPhone / Android device that is then converted to text, that’s an NLP algorithm in action. 
+You can also use NLP on a text review to predict if the review is a good one or a bad one. You can use NLP on an article to predict some categories of the articles you are trying to segment. You can use NLP on a book to predict the genre of the book. And it can go further, you can use NLP to build a machine translator or a speech recognition system, and in that last example you use classification algorithms to classify language. Speaking of classification algorithms, most of NLP algorithms are classification models, and they include Logistic Regression, Naive Bayes, CART which is a model based on decision trees, Maximum Entropy again related to Decision Trees, Hidden Markov Models which are models based on Markov processes. 
+A very well-known model in NLP is the Bag of Words model. It is a model used to preprocess the texts to classify before fitting the classification algorithms on the observations containing the texts. 
+In this part, you will understand and learn how to: 
+Clean texts to prepare them for the Machine Learning models, 
+Create a Bag of Words model, 
+Apply Machine Learning models onto this Bag of Worlds model. 
+ 
+ 
+Enjoy Machine Learning! 
+ 
+Certainly! In a real-world scenario like the one you described, you can leverage Natural Language Processing (NLP) techniques to organize unstructured document files. Here's a brief guide: 
+Text Extraction: 
+Use libraries like Textract or PyMuPDF in Python to extract text from various document formats (PDFs, Word documents, etc.). 
+Text Cleaning: 
+Utilize NLP libraries such as NLTK or Spacy to clean and preprocess the extracted text. This includes removing stop words, stemming, and lemmatization. 
+Named Entity Recognition (NER): 
+Apply NER using tools like Spacy to identify and extract entities like names, organizations, and technical terms. This helps in understanding the context and relationships. 
+Topic Modeling: 
+Use algorithms like Latent Dirichlet Allocation (LDA) from the gensim library to identify topics within the documents. This can assist in categorizing and organizing the content. 
+Keyword Extraction: 
+Employ techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or RAKE (Rapid Automatic Keyword Extraction) for extracting important keywords that highlight key concepts. 
+Document Similarity: 
+Measure document similarity using cosine similarity or Jaccard similarity. This can help in grouping similar documents together. 
+Database Integration: 
+Store the organized information in a structured database using libraries like pandas for tabular data or a document-based database like MongoDB. 
+By following these steps and using the mentioned libraries, you can streamline the organization of unstructured documents with proprietary and technical content, reducing the trial and error in the process. 
+Regards, 
+Irum 
+Natural Language Processing Models -> Chatbot 
+ 
+Chatbot -> if/else rule 
+ 
+A set of prerecorded questions and their ans are written with the help of the above rule. 
+ 
+Speech Recognition is a part of NLP Model it understands through waveforms the word using Audio frequency component analysis a library is there which contains freq vs time. 
+ 
+Bag of Word is a NLP model is a classification model used to classify the text using words that are in the text or speech used.A review is good or bad is classified using the usage of words from bag of words and then analyze which word is used and from bag of words check it is positive or negative. 
+ 
+CNN for text recognition is a DNLP Mod. 
+ 
+Seq2Seq is a important DNLP Model. 
+ 
+An email written by my friend to me. 
+ 
+Hello Aarush, 
+Checking if you are back to India.Let me know if you are around.Keen to know sync how things are.I defo could use some of your creative thinking to help with mine. 
+ 
+Gmail gave 3 suggestions for replying ->Yes,I am around 
+->I am back 
+->No,Sorry I am not 
+How google gmail gave them ? 
+ 
+Google search is also NLP Part gives most related answers also. 
+ 
+First lets create a model which gives yes/no 
+ 
+171,476 Words exist in english language out of which most people speak 20,000 to 35,000 words commonly. 
+ 
+Create a array of 20,000 elements of 0's. 
+ 
+Every word has a position in this array or vector. 
+ 
+First,second and last positions are fixed. 
+First SOS,2nd EOS,last Special Words -> for other 151,000 words. 
+ 
+It is a frequency vector. 
+ 
+First train model using training data which is labelled. 
+ 
+We can apply logisitic regression or other classification models to train the model. 
+ 
+ 
+ 
